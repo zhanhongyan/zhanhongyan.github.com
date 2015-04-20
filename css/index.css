@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, img, pr
 /*文字声明*/
 h1,h2,h3,h4,h5,h6 {color:#d22;font-size:100%;font-weight:bold;font-family:'microsoft yahei',"微软雅黑",sans-serif;}
 h3 {font-size:18px;margin:40px 0 12px;}
-p {line-height:2;}
+p {line-height:2.2;}
 
 .ellipsisi {overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}/*超出容器的文本显示省略号*/
 .cut {word-break:break-all;}/*将长的英文单词截为两段*/
@@ -25,7 +25,7 @@ img {display:block;margin:0;padding:0;}
 .dividing-line {display:block;height:1px;border-top:1px solid #ccc;margin:12px 0;}
 
 /*左边*/
-#left {text-align:center;float:left;background:#123;width:200px;min-width:100px;height:100%;color:#fff;position:fixed;}
+#left {width:15%;height:100%;text-align:center;float:left;background:#123;color:#fff;position:fixed;}
 #left .wrap {overflow:hidden;}
 #left .avatar {width:100%;height:100%;padding:40px 0 20px;}
 #left .avatar img  {margin:0 auto;background-color:#fff;}
@@ -35,7 +35,7 @@ img {display:block;margin:0;padding:0;}
 #left .nav .selected {background-color:#345;}
 
 /*右边*/
-#right {padding:40px 50px;margin-left:200px;background-image:url(../images/sf50.png);background-repeat:no-repeat;background-position:right top;background-attachment:fixed;}
+#right {width:85%;margin-left:15%;clear:both;padding:40px 50px;background-image:url(../images/sf50.png);background-repeat:no-repeat;background-position:right top;background-attachment:fixed;}
 #right .end {text-align:center;color:#999;}
 
 /*右边基础信息区*/
@@ -75,14 +75,14 @@ img {display:block;margin:0;padding:0;}
 #mygraphic li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
 
 /*学习笔记*/
-#content {width:800px;margin-top:-32px;padding-bottom:40px;}
+#content {width:100%;margin-top:-32px;padding-bottom:40px;}
 #content .post {padding:32px 0 36px;border-bottom:1px dashed #999;}
 #content .post-title {height:24px;font-size:18px;color:#d22;font-weight:bold;padding-bottom:18px;}
-#content .post-time {height:14px;margin-top:10px;font-size:12px;color:#999;float:right;display:block;}
-#content p {line-height:2;letter-spacing:.2px;}
+#content .post-time {height:14px;padding:10px 10px 0 0;font-size:12px;color:#999;display:inline-block;}
+#content p {letter-spacing:.2px;}
 
 /*网址导航*/
-#site {width:800px;min-height:800px;}
+#site {width:100%;min-height:800px;}
 #site .sites {overflow:hidden;}
 #site .sites a {display:block;float:left;font-size:16px;width:120px;padding:5px 0;margin:10px 40px 10px 0;}
 #site .sites a:hover {color:#06e;text-decoration:underline;}
