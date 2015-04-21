@@ -1,12 +1,12 @@
 ﻿html,body {direction:ltr;width:100%;height:100%;overflow-x:hidden;}/*去除浏览器下方横向滚动条*/
 
-body {font:14px 'microsoft yahei',"微软雅黑",'\5b8b\4f53',sans-serif;background-color:#f5f5f5;color:#333;-webkit-font-smoothing:antialiased;}
+body {font:62.5% 'microsoft yahei',"微软雅黑",'\5b8b\4f53',sans-serif;background-color:#f5f5f5;color:#333;-webkit-font-smoothing:antialiased;}
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, img, pre, form, fieldset, legend, button, input, textarea, tr,th,td,a{margin:0;padding:0;border:0; }
 
 /*文字声明*/
 h1,h2,h3,h4,h5,h6 {color:#d22;font-size:100%;font-weight:bold;font-family:'microsoft yahei',"微软雅黑",sans-serif;}
-h3 {font-size:18px;margin:40px 0 12px;}
-p {line-height:2.2;}
+h3 {font-size:1.8em;margin:40px 0 12px;}
+p {font-size:1.4em;line-height:2.2;}
 
 .ellipsisi {overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}/*超出容器的文本显示省略号*/
 .cut {word-break:break-all;}/*将长的英文单词截为两段*/
@@ -27,11 +27,12 @@ img {display:block;margin:0;padding:0;}
 /*左边*/
 #left {width:15%;height:100%;text-align:center;float:left;background:#123;color:#fff;position:fixed;}
 #left .wrap {overflow:hidden;}
-#left .avatar {width:100%;height:100%;padding:40px 0 20px;}
+#left .avatar {width:100%;height:auto;display:block;overflow:hidden;padding:40px 0 20px;}
 #left .avatar img  {margin:0 auto;background-color:#fff;}
 #left .nav {padding:20px 0;overflow:hidden;}
-#left .nav a {display:block;padding:15px 0;border-top:1px solid #345;border-bottom:1px solid #345;margin-top:-1px;}
-#left .nav a:hover {background-color:#456;-webkit-transition: background-color 0.3s linear;-moz-transition: background-color 0.3s linear;-o-transition: background-color 0.3s linear;transition: background-color 0.3s linear;}
+#left .nav a {display:block;font-size:1.4em;padding:15px 0;border-top:1px solid #345;border-bottom:1px solid #345;margin-top:-1px;
+-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;transition:all 0.3s linear;}
+#left .nav a:hover {background-color:#456;}
 #left .nav .selected {background-color:#345;}
 
 /*右边*/
@@ -47,7 +48,7 @@ img {display:block;margin:0;padding:0;}
 #subnav {width:100%;}
 #subnav ul {overflow:hidden;}
 #subnav ul li {float:left;margin-right:20px;}
-#subnav ul li a {font-size:16px;padding:2px;color:#666;}
+#subnav ul li a {font-size:1.6em;padding:2px;color:#666;}
 #subnav ul li a:hover {color:#fff;background-color:#39e;}
 #subnav ul li.current a {color:#fff;background-color:#39e;}
 
@@ -77,14 +78,14 @@ img {display:block;margin:0;padding:0;}
 /*学习笔记*/
 #content {width:100%;margin-top:-32px;padding-bottom:40px;}
 #content .post {padding:32px 0 36px;border-bottom:1px dashed #999;}
-#content .post-title {height:24px;font-size:18px;color:#d22;font-weight:bold;padding-bottom:18px;}
-#content .post-time {height:14px;padding:10px 10px 0 0;font-size:12px;color:#999;display:inline-block;}
+#content .post-title {font-size:1.8em;color:#d22;font-weight:bold;padding-bottom:18px;}
+#content .post-time {padding:10px 10px 0 0;font-size:0.667em;color:#999;}
 #content p {letter-spacing:.2px;}
 
 /*网址导航*/
 #site {width:100%;min-height:800px;}
 #site .sites {overflow:hidden;}
-#site .sites a {display:block;float:left;font-size:16px;width:120px;padding:5px 0;margin:10px 40px 10px 0;}
+#site .sites a {display:block;float:left;font-size:1.6em;width:120px;padding:5px 0;margin:10px 40px 10px 0;}
 #site .sites a:hover {color:#06e;text-decoration:underline;}
 
 
