@@ -78,14 +78,20 @@
 
 <div class="post">
 	<div class="post-title"><span class="post-time">2015-03-31</span>子DIV有浮动时无法撑开父DIV的解决办法</div>
-	<p>1、父DIV指定高度&nbsp&ltdiv style="height:100px;"&gt&nbsp&ltdiv&gt</p>
-	<p>2、在父DIV的闭合标签前清除内部浮动<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&ltdiv&gt<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp&ltdiv style="float:left"&gt&nbsp&lt/div&gt<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp&ltdiv class="clear"&gt&nbsp&lt/div&gt<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&lt/div&gt<br>
-	.class {clear:both;display:block;visibility:hidden;height:0;line-height:0;content:".";}</p>
-	<p>3、父DIV添加overflow:hidden&nbsp&ltdiv style="overflow:hidden;"&gt&nbsp&ltdiv&gt</p>
+	<p><ul>
+<ol><strong>1. float; </strong><br />
+缺点：层层往上找，没完没了，到了body那，算是个头  float 和 margin:0 auto; 有冲突</ol>
+<ol><strong>2. display:inline-block; </strong><br />
+缺点：不能设置 margin:0 auto;</ol>
+<ol><strong>3. 父DIV添加overflow:hidden; </strong><br />
+缺点：很多JS交互特效做不了，多出去的部分隐藏了</ol>
+<ol><strong>4. 在父级内，加空DIV：clear:both;  </strong><br />
+缺点：父级不能加padding，否则IE6 IE7不兼容</ol>
+<ol><strong>5. 在父DIV的闭合标签前&lt;br clear="all" /&gt; </strong><br />
+缺点：每次都要加这个换行符</ol>
+<ol><strong>6. .clear:after { content: ''; clear: both; display: block; } </strong><br />
+此外，如果父级没有宽，就必须为父级加上：zoom:1;用来解决IE6 IE7下的问题</ol>
+	</ul></p>
 </div>
 
 		</div>	

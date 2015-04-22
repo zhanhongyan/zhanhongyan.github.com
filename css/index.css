@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, img, pr
 /*文字声明*/
 h1,h2,h3,h4,h5,h6 {color:#d22;font-size:100%;font-weight:bold;font-family:'microsoft yahei',"微软雅黑",sans-serif;}
 h3 {font-size:1.8em;margin:40px 0 12px;}
-p {font-size:1.4em;line-height:2.2;}
+p,ol {font-size:1.4em;line-height:2.2;}
 
 .ellipsisi {overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}/*超出容器的文本显示省略号*/
 .cut {word-break:break-all;}/*将长的英文单词截为两段*/
