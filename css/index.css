@@ -52,15 +52,15 @@ img {display:block;margin:0;padding:0;}
 
 /*网页作品区*/	
 #myweb {overflow:hidden;width:100%;padding:40px 0;}
-#myweb li {overflow:hidden;display:block;float:left;width:320px;margin:0 20px 20px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
+#myweb li {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
 #myweb a {display:block;}
 #myweb li a img {width:320px;height:200px;}
 #myweb li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
 
 /*APP作品区*/	
 #myapp {overflow:hidden;width:100%;padding:40px 0;}
-#myapp a {overflow:hidden;display:block;float:left;width:320px;height:568px;margin:0 20px 20px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
-#myapp a img {width:320px;}
+#myapp a {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
+#myapp a img {width:320px;height:568px;}
 
 /*banner作品区*/
 #mybanner {overflow:hidden;width:100%;padding:40px 0;}
@@ -68,9 +68,9 @@ img {display:block;margin:0;padding:0;}
 
 /*平面作品区*/
 #mygraphic {overflow:hidden;width:100%;padding:40px 0;}
-#mygraphic li {overflow:hidden;display:block;float:left;width:480px;margin:0 40px 40px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
+#mygraphic li {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
 #mygraphic a {display:block;}
-#mygraphic li a img {width:480px;height:300px;}
+#mygraphic li a img {width:320px;height:200px;}
 #mygraphic li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
 
 /*学习笔记*/
