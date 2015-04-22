@@ -36,19 +36,17 @@ img {display:block;margin:0;padding:0;}
 #left .nav .selected {background-color:#345;}
 
 /*右边*/
-#right {margin-left:15%;padding:40px 50px;/*background-image:url(../images/sf50.png);background-repeat:no-repeat;background-position:right top;background-attachment:fixed;*/}
+#right {margin-left:15%;padding:3.5%;/*background-image:url(../images/sf50.png);background-repeat:no-repeat;background-position:right top;background-attachment:fixed;*/}
 #right .end {text-align:center;color:#999;}
 
 /*右边基础信息区*/
-#personal .who {float:left;}
-#personal .who .wd {text-align:center;display:inline-block;width:16px;}
-#personal .who .wd2 {text-align:center;display:inline-block;width:32px;}
+#personal {margin-top:-40px;overflow:hidden;}
 
 /*右边作品区导航*/
-#subnav {width:100%;}
-#subnav ul {overflow:hidden;}
-#subnav ul li {float:left;margin-right:20px;}
-#subnav ul li a {font-size:1.6em;padding:2px;color:#666;}
+#subnav {width:100%;overflow:hidden;}
+#subnav ul {}
+#subnav ul li {float:left;margin-right:1em;}
+#subnav ul li a {display:block;font-size:1.6em;padding:5px 7px;color:#666;}
 #subnav ul li a:hover {color:#fff;background-color:#39e;}
 #subnav ul li.current a {color:#fff;background-color:#39e;}
 
@@ -78,12 +76,12 @@ img {display:block;margin:0;padding:0;}
 /*学习笔记*/
 #content {width:100%;margin-top:-32px;padding-bottom:40px;}
 #content .post {padding:32px 0 36px;border-bottom:1px dashed #999;}
-#content .post-title {font-size:1.8em;color:#d22;font-weight:bold;padding-bottom:18px;}
+#content .post-title {font-size:1.8em;color:#d22;font-weight:bold;padding-bottom:1.5em;}
 #content .post-time {padding:10px 10px 0 0;font-size:0.667em;color:#999;}
 #content p {letter-spacing:.2px;}
 
 /*网址导航*/
-#site {width:100%;min-height:800px;}
+#site {width:100%;margin-top:-40px;min-height:800px;}
 #site .sites {overflow:hidden;}
 #site .sites a {display:block;float:left;font-size:1.6em;width:120px;padding:5px 0;margin:10px 40px 10px 0;}
 #site .sites a:hover {color:#06e;text-decoration:underline;}
