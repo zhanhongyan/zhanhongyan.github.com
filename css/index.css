@@ -54,7 +54,8 @@ img {display:block;margin:0;padding:0;}
 #myweb {overflow:hidden;width:100%;padding:40px 0;}
 #myweb li {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
 #myweb a {display:block;}
-#myweb li a img {width:320px;height:200px;}
+#myweb li a img {width:320px;height:200px;transition: .5s all linear;}
+#myweb li a:hover img { -moz-transform:scale(1.1,1.1); -webkit-transform:scale(1.1,1.1); -o-transform:scale(1.1,1.1); transform:scale(1.1,1.1); }
 #myweb li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
 
 /*APP作品区*/	
@@ -70,7 +71,8 @@ img {display:block;margin:0;padding:0;}
 #mygraphic {overflow:hidden;width:100%;padding:40px 0;}
 #mygraphic li {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
 #mygraphic a {display:block;}
-#mygraphic li a img {width:320px;height:200px;}
+#mygraphic li a img {width:320px;height:200px;transition: .5s all linear;}
+#mygraphic li a:hover img { -moz-transform:scale(1.1,1.1); -webkit-transform:scale(1.1,1.1); -o-transform:scale(1.1,1.1); transform:scale(1.1,1.1); }
 #mygraphic li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
 
 /*学习笔记*/
