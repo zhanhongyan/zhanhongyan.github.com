@@ -12,8 +12,8 @@ p,ol {font-size:1.4em;line-height:2.2;}
 .cut {word-break:break-all;}/*将长的英文单词截为两段*/
 .wordwrap {word-wrap:break-word;}/*将段尾不能完全显示的长英文单词自动换行*/
 
-ol,ul,li{list-style:none}
-a:link,a:visited{color:inherit;text-decoration:none;}
+ol,ul,li {list-style:none}
+a:link,a:visited,a:active {color:inherit;text-decoration:none;}
 a {cursor:pointer;}
 img {display:block;margin:0;padding:0;}
 
@@ -53,10 +53,18 @@ img {display:block;margin:0;padding:0;}
 /*网页作品区*/	
 #myweb {overflow:hidden;width:100%;padding:40px 0;}
 #myweb li {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
-#myweb a {display:block;}
+#myweb a {display:block;overflow:hidden;}
 #myweb li a img {width:320px;height:200px;transition: .5s all linear;}
 #myweb li a:hover img { -moz-transform:scale(1.1,1.1); -webkit-transform:scale(1.1,1.1); -o-transform:scale(1.1,1.1); transform:scale(1.1,1.1); }
 #myweb li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+
+/*平面作品区*/
+#mygraphic {overflow:hidden;width:100%;padding:40px 0;}
+#mygraphic li {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
+#mygraphic a {display:block;overflow:hidden;}
+#mygraphic li a img {width:320px;height:200px;transition: .5s all linear;}
+#mygraphic li a:hover img { -moz-transform:scale(1.1,1.1); -webkit-transform:scale(1.1,1.1); -o-transform:scale(1.1,1.1); transform:scale(1.1,1.1); }
+#mygraphic li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
 
 /*APP作品区*/	
 #myapp {overflow:hidden;width:100%;padding:40px 0;}
@@ -65,15 +73,7 @@ img {display:block;margin:0;padding:0;}
 
 /*banner作品区*/
 #mybanner {overflow:hidden;width:100%;padding:40px 0;}
-#mybanner .brbox {width:320px;height:120px;float:left;overflow:hidden;background-size:cover;background-repeat:no-repeat;background-position:center center;}
-
-/*平面作品区*/
-#mygraphic {overflow:hidden;width:100%;padding:40px 0;}
-#mygraphic li {overflow:hidden;display:block;float:left;margin:0 30px 30px 0;background-color:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.1);}
-#mygraphic a {display:block;}
-#mygraphic li a img {width:320px;height:200px;transition: .5s all linear;}
-#mygraphic li a:hover img { -moz-transform:scale(1.1,1.1); -webkit-transform:scale(1.1,1.1); -o-transform:scale(1.1,1.1); transform:scale(1.1,1.1); }
-#mygraphic li p {padding:10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+#mybanner .brbox {width:340px;height:120px;float:left;overflow:hidden;background-size:cover;background-repeat:no-repeat;background-position:center center;}
 
 /*学习笔记*/
 #content {width:100%;margin-top:-32px;padding-bottom:40px;}
