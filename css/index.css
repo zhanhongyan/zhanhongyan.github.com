@@ -27,13 +27,15 @@ img {display:block;margin:0;padding:0;}
 /*左边*/
 #left {width:15%;height:100%;text-align:center;float:left;background:#123;color:#fff;position:fixed;}
 #left .wrap {overflow:hidden;}
-#left .avatar {width:100%;height:auto;display:block;overflow:hidden;padding:40px 0 20px;}
+#left .avatar {width:100%;height:auto;display:block;overflow:hidden;padding:40px 0;}
 #left .avatar img  {margin:0 auto;background-color:#fff;}
-#left .nav {padding:20px 0;overflow:hidden;}
+#left .nav {overflow:hidden;}
 #left .nav a {display:block;font-size:1.4em;padding:15px 0;border-top:1px solid #345;border-bottom:1px solid #345;margin-top:-1px;
 -webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;transition:all 0.3s linear;}
 #left .nav a:hover {background-color:#456;}
 #left .nav .selected {background-color:#345;}
+#left .info {padding:40% 5%;overflow:hidden;}
+#left .info p {color:#999;font-size:1em;}
 
 /*右边*/
 #right {margin-left:15%;padding:3.5%;/*background-image:url(../images/sf50.png);background-repeat:no-repeat;background-position:right top;background-attachment:fixed;*/}
