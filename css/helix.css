@@ -5,8 +5,10 @@ body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, im
 
 /*文字声明*/
 h1,h2,h3,h4,h5,h6 {}
-h2 {font-size:26px; margin-bottom:20px;}
-h3 {font-size:16px; margin-bottom:10px;}
+h3 {font-size:36px; margin-bottom:30px;}
+h2 {font-size:24px; margin-bottom:20px;}
+h3 {font-size:14px; margin-bottom:10px;}
+p {font-size:14px;}
 
 .ellipsisi {overflow:hidden;white-space:nowrap;text-overflow:ellipsis;} /*超出容器的文本显示省略号*/
 .cut {word-break:break-all;} /*将长的英文单词截为两段*/
@@ -23,10 +25,10 @@ a img, a {cursor:pointer;}
 #nav {position:relative; float:left; width:78%;} /*取消relative变为横向二级导航*/
 #nav ul, #nav li {list-style:none;}
 /* #nav .dropdown {display:inline-block;margin-left:5px;width:7px;height:4px;background:url(../images/dropdown.png) no-repeat center right;} */
-#nav ul li{float:left; position:relative;}
+#nav ul li{float:left; position:relative; width:11%;}
 #nav ul li.current{background-color:#08c;} 
 #nav ul li.current a{color:#fff;}
-#nav ul li a{color:#08c; padding:10px 14px; display:block; text-align:center;}
+#nav ul li a{color:#08c; padding:10px 0; display:block; text-align:center;}
 #nav ul li a:hover{color:#fff; background-color:#39e; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;} 
  /*二级导航*/
 #nav ul li ul {display: none; z-index:99;}
@@ -57,15 +59,15 @@ a img, a {cursor:pointer;}
 .cont_box ul li {list-style-type:disc; font-size:14px; margin-bottom:10px;}
 .cont_box ul li a {color:#08c; font-weight:bold;}
 .cont_box ul li a:hover {color:#222; text-decoration:underline;}
-.cont_box a h3 {color:#08c;}
-.cont_box a:hover h3 {color:#222; text-decoration:underline;}
-.cont_box .current h3 {color:#222; font-size:26px;}
-.cont_box p {font-size:14px; margin-bottom:10px;}
+.cont_box h3 a {color:#08c;}
+.cont_box h3:hover a {color:#222; text-decoration:underline;}
+.cont_box .current {color:#222; font-size:24px;}
+.cont_box p {margin-bottom:10px;}
 .cont_box p a {font-weight:bold; color:#08c;}
 .cont_box p a:hover {color:#222; text-decoration:underline;}
-.cont_box .columns {overflow:hidden;}
+.cont_box .columns {margin-left:0; overflow:hidden;}
 .cont_box .columns li {display:inline-block; width:40%; margin-right:5%; margin-bottom:10px;}
-.cont_box .columns li a {color:#08c; font-size:16px; margin-bottom:10px;}
+.cont_box .columns li a {color:#08c; font-size:14px; margin-bottom:10px;}
 .cont_box .columns li a:hover {color:#222; text-decoration:underline;}
 .cont_box .desc {}
 .cont_box .warning {background-color:#fc0; font-weight:bold;}
@@ -73,11 +75,19 @@ a img, a {cursor:pointer;}
 .cont_box .desc p {margin-bottom:10px;}
 .cont_box .info span {color:#555; display:inline-block; width:25%; margin-right:5%;}
 
-.slide01, .slide02, .slide03 {position:relative;}
-.image_wrapper {position:relative; overflow:hidden;}
-.item_wrapper {position:absolute; left:0; top:0; width:60%; overflow:hidden; margin-left:35%; padding-top:40px;}
-.item_wrapper h2 {height:36.4px; overflow:hidden;}
-.item_wrapper p {height:60px; overflow:hidden; margin-bottom:20px; }
+/*slide轮播*/
+.banner {position:relative; overflow:hidden; height:400px; margin-top:40px; padding:0 20px;}
+.banner .btn_wrapper {position:absolute; bottom:0px; left:20px; z-index:99; float:right;}
+.banner .btn_wrapper .btn_left {position:relative; float:left; margin-right:2px;}
+.banner .btn_wrapper .btn_right {position:relative; float:left;}
+.banner .btn_wrapper .btn_left a {width:56px; height:56px; background:#222 url(../helix_images/btn_left.png) no-repeat scroll center top; display:block;}
+.banner .btn_wrapper .btn_right a {width:56px; height:56px; background:#222 url(../helix_images/btn_right.png) no-repeat scroll center top; display:block;}
+.slide01, .slide02, .slide03 .slide04 {position:relative; overflow:hidden; width:100%; height:400px;}
+.slide01 {background:#fafafa url(../helix_images/slide01.png) no-repeat 100% 0;}
+.image_wrapper {}
+.item_wrapper {position:absolute; width:60%; left:0; top:0; height:400px; float:left; padding:40px;}
+.item_wrapper h2 {}
+.item_wrapper p {margin-bottom:20px; }
 .item_wrapper a {display:inline-block; padding:10px 20px; color:#fff; background-color:#08c;}
 .item_wrapper a:hover {background-color:#39e; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;}
 
