@@ -31,7 +31,7 @@
  
  </div>
  
-<div style="overflow:hidden; padding:0 20px;">
+<div style="position:relative; overflow:hidden; padding:0 20px;">
 
 <!--导航-->
 <div id="nav">
@@ -46,11 +46,27 @@
   </ul>
 </div>
 
-<!--搜索-->
-<div class="search_bar"> <a> Search </a> </div>
+<!--right part START-->
+<div style="position:absolute; overflow:hidden; width:252px; float:right; right:20px; top:0;">
 
 <!--快速通道-->
-<div class="quick_links"> <a> Quick Links </a> </div>
+<div class="option_bar">
+ <select class="option_deco" type="" name="">
+  <option value="">Projects</option>
+  <option value="">People</option>
+  <option value="">Documents</option>
+  <option value="">Skills</option>
+ </select>
+</div>
+
+<!--搜索-->
+<div class="search_bar">
+ <input class="search_input" type="text" autocomplete="off" name="" placeholder="search"></input>
+ <a id="search_btn" class="search_btn" href="javascript:void(0);"></a>
+</div>
+
+</div> 
+<!--right part END-->
 
 </div>
  
@@ -71,14 +87,25 @@
 <div id="sub_nav_wrapper">       
 <div id="sub_nav"> 
  <ul>
- 
   <li class="current"> <a href="#">My Personal Page</a></li>
   <li> <a href="">Account Maintenance</a> </li>
   <li> <a href="">Diary&amp;Notes</a> </li>
-
-  </ul>
+  <li> <a href="">Register Project</a> </li>
+ </ul>
 </div> 
 </div>  
+ </div> 
+ 
+ <div class="column-10">
+  <div style="overflow:hidden; margin-top:20px; padding:0 20px;">
+  <div style="overflow:hidden; border-left:4px solid #222;">
+  
+  <div class="nower"> 
+   <p>Your Position : <a>Home &rsaquo; </a><a>My Page &rsaquo; </a><a href="" ><strong>Private Projects</strong></a></p>
+  </div>
+  
+  </div>
+  </div>
  </div> 
  
  
@@ -88,10 +115,21 @@
  <div class="cont_box"> 
   <h2>Private Projects</h2>
   <ul class="columns"> 
-   <li> <a href="">Private Projects 01</a> </li>
-   <li> <a href="">Private Projects 02</a> </li>
-   <li> <a href="">Private Projects 03</a> </li>
-   <li> <a href="">Private Projects 04</a> </li>
+   <li> <a href="">2009 TPS Product Development</a> </li>
+   <li> <a href="">Adaptive Rate HTTP</a> </li>
+   <li> <a href="">Adroit-Private</a> </li>
+   <li> <a href="">Akamai Private Support Project</a> </li>
+   <li> <a href="">Alpine-Private-developers</a> </li>
+   <li> <a href="">helix-sds-restricted</a> </li>
+   <li> <a href="">helix-derver-restricted</a> </li>
+   <li> <a href="">himax-private</a> </li>
+   <li> <a href="">HLS-Arthur</a> </li>
+   <li> <a href="">HLS-Bryce</a> </li>
+   <li> <a href="">RDSCode</a> </li>
+   <li> <a href="">RealFormat SDK</a> </li>
+   <li> <a href="">RealGames Community Development for AOL</a> </li>
+   <li> <a href="">RealPlayer Enterprise 2 Beta Program</a> </li>
+   <li> <a href="">RealPlayer For Android Marketplace</a> </li>
   </ul> 
  </div>
 

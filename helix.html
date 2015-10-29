@@ -26,12 +26,12 @@
  <div id="logo">
   <a href="#" style="display:block"><img src="helix_images/top-logo.png" width="" height="100%" alt="trademark"></a>
  </div>
- <!-- <div style="float:left; margin:20px 0 0 20px; color:#999;">a product from RealNetworks</div> -->
+ 
  <div id="account"><a>New Account</a><span>&Iota;</span><a>Log In</a></div>
  
  </div>
  
-<div style="overflow:hidden; padding:0 20px;">
+<div style="position:relative; overflow:hidden; padding:0 20px;">
 
 <!--导航-->
 <div id="nav">
@@ -46,11 +46,27 @@
   </ul>
 </div>
 
-<!--搜索-->
-<div class="search_bar"> <a> Search </a> </div>
+<!--right part START-->
+<div style="position:absolute; overflow:hidden; width:252px; float:right; right:20px; top:0;">
 
 <!--快速通道-->
-<div class="quick_links"> <a> Quick Links </a> </div>
+<div class="option_bar">
+ <select class="option_deco" type="" name="">
+  <option value="">Projects</option>
+  <option value="">People</option>
+  <option value="">Documents</option>
+  <option value="">Skills</option>
+ </select>
+</div>
+
+<!--搜索-->
+<div class="search_bar">
+ <input class="search_input" type="text" autocomplete="off" name="" placeholder="search"></input>
+ <a id="search_btn" class="search_btn" href="javascript:void(0);"></a>
+</div>
+
+</div> 
+<!--right part END-->
 
 </div>
  
