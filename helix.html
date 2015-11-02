@@ -21,23 +21,30 @@
  <div class="row">
  <div class="column-10">
  
- <div style="overflow:hidden; padding:5px 20px 15px;">
+ <div style="height:70px; padding:5px 20px 15px;">
  <!--标志-->
  <div id="logo">
-  <a href="#" style="display:block"><img src="helix_images/top-logo.png" width="" height="100%" alt="trademark"></a>
+  <a href="helix.html"><img src="helix_images/top-logo.png" width="86" height="50" alt="trademark"></a>
  </div>
- 
+ <!--账号-->
  <div id="account"><a>New Account</a><span>&Iota;</span><a>Log In</a></div>
  
  </div>
  
-<div style="position:relative; overflow:hidden; padding:0 20px;">
-
+<div style="position:relative; height:32px; padding:0 20px;">
 <!--导航-->
 <div id="nav">
   <ul>
     <li class="current"> <a href="#">Home</a></li>
-    <li> <a href="my-page.html">My Page</a></li>
+    <li>
+     <a href="my-page.html">My Page</a>
+     <ul class="nav_down">
+      <li> <a href="">My Personal Page</a> </li>
+      <li> <a href="">Account Maintenance</a> </li>
+      <li> <a href="">Diary&amp;Notes</a> </li>
+      <li> <a href="">Register Project</a> </li>
+     </ul>
+    </li>
     <li> <a href="developers.html">Developers</a> </li> 
     <li> <a href="">Downloads</a> </li>
     <li> <a href="">Licenses</a> </li>
@@ -111,19 +118,30 @@
  <div class="cont_box"> 
   <h2>Products</h2>
   
-   <h3> <a href="">RealPlayer for Linux</a> </h3>
-   <p>An open source media player for Linux Solaris and Symbian based on the Helix DNA Client media engine.</p>
-   <p></br></p>
-   
-   <h3> <a href="">Helix DNA Client</a> </h3>
-   <p>The Helix DNA Client is the universal digital media playback engine,supporting playback of any format and codec on any device.</p>
-   <p></br></p>
+  <div class="minibox">
+   <div class="minibox_img"> <img src="helix_images/realplayer_linux.jpg" width="100%" height="" alt=""> </div>
+   <div class="minibox_info">
+    <h3> <a href="">RealPlayer for Linux</a> </h3>
+    <p>An open source media player for Linux Solaris and Symbian based on the Helix DNA Client media engine.</p>
+   </div>
+  </div>
     
-   <h3> <a href="">RealAudio&amp;RealVideo</a> </h3>
-   <p>Whether used for download or streaming,RealNetworks' RealAudio and RealVideo codecs delivers unparalleled quality from Narrowband to HDTV.</p>
-   
-   <p></br></br></p>
- 
+  <div class="minibox">
+   <div class="minibox_img"><img src="helix_images/helix_dna.jpg" width="100%" height="" alt=""></div>
+   <div class="minibox_info">
+    <h3> <a href="">Helix DNA Client</a> </h3>
+    <p>The Helix DNA Client is the universal digital media playback engine,supporting playback of any format and codec on any device.</p>
+   </div>
+  </div>
+    
+  <div class="minibox">
+   <div class="minibox_img"><img src="helix_images/realaudio_realvideo.jpg" width="100%" height="" alt=""></div>
+   <div class="minibox_info">
+    <h3> <a href="">RealAudio&amp;RealVideo</a> </h3>
+    <p>Whether used for download or streaming,RealNetworks' RealAudio and RealVideo codecs delivers unparalleled quality from Narrowband to HDTV.</p>
+   </div>
+  </div>
+  
  </div>  
  </div>
 
@@ -164,10 +182,14 @@
 <!--尾部-->
 <div id="foot_wrapper">
  <div id="layout">
- <div class="row">  
-
-	<p style="text-align:center; padding:15px 0; color:#fff;">Copyright &copy RealNetworks,Inc. All Rights Reserved</p>
-
+ <div class="row">
+  <div class="column-10">  
+   
+   <div class="footer_info">
+	<p>Copyright &copy RealNetworks,Inc. All Rights Reserved</p>
+   </div> 
+    
+  </div>
  </div>
  </div>
 </div>
