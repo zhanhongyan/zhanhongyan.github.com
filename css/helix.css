@@ -119,12 +119,12 @@ display:inline-block;}
 .banner a.btn_left:hover {background-color:#222; transition:.3s ease-in-out;}
 
 .banner a.btn_right {z-index:9; position:absolute; width:36px; height:100px; right:0; top:150px; 
-background-color:rgba(34,34,34,.2);
+background-color:#08c;
 background-image:url(../helix_images/btn_right_16_30.png);
 background-repeat:no-repeat;
 background-position:9px 35px; 
 display:inline-block;}
-.banner a.btn_right:hover {background-color:rgba(34,34,34,1); transition:.3s ease-in-out;}
+.banner a.btn_right:hover {background-color:#222; transition:.3s ease-in-out;}
 
 .slide01, .slide02, .slide03 .slide04 {position:absolute; overflow:hidden; width:100%; height:400px; left:0; top:0;}
 .slide01 {background:#fafafa url(../helix_images/slide01.png) no-repeat 100% 0;}
