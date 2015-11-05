@@ -37,20 +37,28 @@ a img, a {cursor:pointer;}
 #nav ul li a:hover {color:#fff; background-color:#222; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;} 
 /*二级导航*/
 #nav .nav_down {display:none;}
+#nav .nav_down a {background-color:#eee;}
 #nav ul li:hover .nav_down {display:block; position:absolute; top:32px; background-color:#eee;}
 #nav ul li:hover .nav_down ul li {height:32px; line-height:32px;}
 #nav ul li:hover .nav_down ul li a {display:block; color:#08c; text-align:center;} 
 #nav ul li:hover .nav_down ul li a:hover {color:#fff; background-color:#222; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;} 
-/*三级导航
-#nav ul li:hover ul li ul{display:none;}
-#nav ul li:hover ul li:hover ul{display:block;position: absolute;top:-1px;left: 151px;} */
  
-/*developers 下拉导航*/
+/*My Page - sub_nav*/
+#sub_nav_wrapper {width:100%; overflow:hidden; margin-top:-1px; padding:0 20px;}
+#sub_nav {position:relative; float:left;}
+#sub_nav ul, #sub_nav li {list-style:none;}
+#sub_nav ul li {float:left; position:relative; height:32px; line-height:32px;}
+#sub_nav ul li.current a {color:#fff; background-color:#08c;} 
+#sub_nav ul li.current a:hover {background-color:#222;}
+#sub_nav ul li a {color:#08c; background-color:#eee; padding:0 10px; display:block; text-align:center;}
+#sub_nav ul li a:hover {color:#fff; background-color:#222; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;}  
+ 
+/*developers 下拉导航
 #nav .navdown {display:none;}
 #nav .navdown a {display:block; text-align:center; height:32px; line-height:32px; color:#fff; background-color:#08c;}
 #nav ul li:hover .navdown {display:block; position:absolute; top:32px;}
 #nav ul li:hover .navdown a:hover {background-color:#222; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;}
-
+*/
 
 .option_bar {float:left; height:32px;}
 .option_deco {float:left; width:100px; height:32px; line-height:32px; border:1px solid #08c;} 
@@ -101,16 +109,16 @@ a img, a {cursor:pointer;}
 .minibox_info p {margin-bottom:0;}
 
 /*slide轮播*/
-.banner {position:relative; overflow:hidden; height:400px; margin-top:40px; padding:0 20px;}
-.banner a.btn_left {z-index:9; position:absolute; width:36px; height:100px; left:20px; top:150px; 
-background-color:rgba(34,34,34,.2);
+.banner {position:relative; overflow:hidden; height:400px; margin:40px 20px 0;}
+.banner a.btn_left {z-index:9; position:absolute; width:36px; height:100px; left:0; top:150px; 
+background-color:#08c;
 background-image:url(../helix_images/btn_left_16_30.png);
 background-repeat:no-repeat;
 background-position:9px 35px; 
 display:inline-block;}
-.banner a.btn_left:hover {background-color:rgba(34,34,34,1); transition:.3s ease-in-out;}
+.banner a.btn_left:hover {background-color:#222; transition:.3s ease-in-out;}
 
-.banner a.btn_right {z-index:9; position:absolute; width:36px; height:100px; right:20px; top:150px; 
+.banner a.btn_right {z-index:9; position:absolute; width:36px; height:100px; right:0; top:150px; 
 background-color:rgba(34,34,34,.2);
 background-image:url(../helix_images/btn_right_16_30.png);
 background-repeat:no-repeat;
@@ -118,28 +126,20 @@ background-position:9px 35px;
 display:inline-block;}
 .banner a.btn_right:hover {background-color:rgba(34,34,34,1); transition:.3s ease-in-out;}
 
-
-.slide01, .slide02, .slide03 .slide04 {position:relative; overflow:hidden; width:100%; height:400px; z-index:8;}
+.slide01, .slide02, .slide03 .slide04 {position:absolute; overflow:hidden; width:100%; height:400px; left:0; top:0;}
 .slide01 {background:#fafafa url(../helix_images/slide01.png) no-repeat 100% 0;}
 .image_wrapper {}
-.item_wrapper {position:absolute; width:60%; left:0; top:0; height:400px; float:left; padding:40px 40px 40px 60px;}
-.item_wrapper h2 {}
-.item_wrapper p {margin-bottom:20px; }
-.item_wrapper a {display:inline-block; padding:10px 20px; color:#fff; background-color:#08c;}
-.item_wrapper a:hover {background-color:#39e; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;}
+.item_wrapper {position:relative; float:left; width:60%; height:400px; padding:80px 0 80px 80px;}
+.item_wrapper h2 {font-size:36px; line-height:40px; height:40px; overflow:hidden; margin-bottom:30px;}
+.item_wrapper p {font-size:18px; line-height:27px; height:81px; overflow:hidden; margin-bottom:30px;}
+.item_wrapper a {display:block; float:left; font-size:18px; height:40px; line-height:40px; text-align:center; padding:0 20px; color:#fff; background-color:#08c;}
+.item_wrapper a:hover {background-color:#222; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;}
 
-/*My Page - sub_nav*/
-#sub_nav_wrapper {display:none; width:100%; overflow:hidden; margin-top:-1px; padding:0 20px; }
-#sub_nav {position:relative; float:left; border:1px solid #eee;}
-#sub_nav ul, #nav li {list-style:none;}
-#sub_nav ul li {float:left; position:relative; height:32px; line-height:32px;}
-#sub_nav ul li.current {background-color:#222;} 
-#sub_nav ul li.current a:hover {background-color:#222;}
-#sub_nav ul li.current a {color:#fff;}
-#sub_nav ul li a {color:#08c; padding:0 10px; display:block; text-align:center;}
-#sub_nav ul li a:hover {color:#fff; background-color:#08c; -webkit-transition:background-color 0.3s linear; -moz-transition:background-color 0.3s linear; -o-transition:background-color 0.3s linear; transition:background-color 0.3s linear;} 
-
+/*面包屑导航*/
 .nower {position:relative; float:left; height:20px; line-height:20px; padding-left:5px;}
+.nower a {color:#08c;}
+.nower a:hover {color:#222; text-decoration:underline;}
+.nower span {padding:0 5px;}
 
 
 
