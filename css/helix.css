@@ -9,7 +9,6 @@ h3 {font-size:32px; margin-bottom:30px;}
 h2 {font-size:20px; margin-bottom:20px;}
 h3 {font-size:14px; margin-bottom:10px;}
 p {font-size:14px;}
-.footer_info p {font-size:12px; color:#fff; text-align:center; padding:15px 0;}
 
 .ellipsisi {overflow:hidden;white-space:nowrap;text-overflow:ellipsis;} /*超出容器的文本显示省略号*/
 .cut {word-break:break-all;} /*将长的英文单词截为两段*/
@@ -24,7 +23,15 @@ a img, a {cursor:pointer;}
 #account {float:right; margin-top:25px;}
 #account a {line-height:20px; color:#08c;}
 #account a:hover {color:#222; text-decoration:underline;}
-#account span {padding:0 5px;}
+#account span {padding:0 8px;}
+
+/*尾部*/
+.footer_info {padding:15px 0;}
+.footer_info p {font-size:12px; line-height:24px; color:#ccc; text-align:center;}
+.footer_info a {color:#ccc;}
+.footer_info a:hover {color:#fff; text-decoration:underline;}
+.footer_info span {padding:0 8px;}
+
 /*导航*/
 #nav {float:left; width:100%; padding-right:272px;} /*取消relative变为横向二级导航*/
 #nav ul, #nav li {list-style-type:none;}
@@ -83,7 +90,7 @@ a img, a {cursor:pointer;}
 #layout {position:relative; width:90%; margin:0 auto;}
 .row {position:relative; margin:0 -20px;}
 .cont_box {overflow:hidden; margin-top:40px;}
-.cont_box ul {list-style-type:disc; margin-left:14px;}
+.cont_box ul {list-style-type:disc; margin-left:1em;}
 .cont_box ul li {list-style-type:disc; font-size:14px; margin-bottom:10px;}
 .cont_box ul li a {color:#08c; font-weight:bold;}
 .cont_box ul li a:hover {color:#222; text-decoration:underline;}
