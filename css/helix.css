@@ -111,9 +111,16 @@ a img, a {cursor:pointer;}
 .cont_box .info span {color:#555; display:inline-block; width:25%; margin-right:5%;}
 
 .minibox {position:relative; float:left; min-height:70px; margin-bottom:20px;}
-.minibox_img {position:absolute; float:left; left:0; top:0; width:70px; height:70px; border-radius:10px; overflow:hidden;}
-.minibox_info {position:relative; float:right; padding-left:90px;}
+.minibox_img {position:absolute; float:left; left:0; top:0; width:140px; height:140px; border-radius:10px; overflow:hidden;}
+.minibox_info {position:relative; float:right; padding-left:160px;}
 .minibox_info p {margin-bottom:0;}
+
+/*partner spotlight*/
+.psbox {position:relative; float:left; overflow:hidden; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee;}
+.psbox_img {position:absolute; float:left; left:0; top:0; width:140px; padding:5px; overflow:hidden;}
+.psbox_info {position:relative; float:right; padding-left:170px;}
+.psbox_info h3 a {margin-left:10px;}
+.psbox_info p {margin-bottom:0;}
 
 /*slide轮播*/
 .banner {position:relative; overflow:hidden; height:400px; margin:40px 20px 0;}
