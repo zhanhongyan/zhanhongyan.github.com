@@ -122,6 +122,15 @@ a img, a {cursor:pointer;}
 .psbox_info h3 a {margin-left:10px;}
 .psbox_info p {margin-bottom:0;}
 
+/*partner spotlight 2*/
+.prbox {position:relative; float:left; overflow:hidden; width:200px; height:120px; margin:0 20px 20px 0; border:1px solid #eee;}
+.prbox_img {width:120px; height:120px; position:relative; display:table; text-align:center; margin-left:40px;}
+.prbox_img span {display:table-cell; vertical-align:middle;}
+.prbox_img span img {}
+.prbox_info {position:absolute; left:0; top:0; padding:10px;}
+.prbox_info h3 a {margin-left:10px;}
+.prbox_info p {margin-bottom:0;}
+
 /*slide轮播*/
 .banner {position:relative; overflow:hidden; height:400px; margin:40px 20px 0;}
 .banner a.btn_left {z-index:9; position:absolute; width:36px; height:100px; left:0; top:150px; 
