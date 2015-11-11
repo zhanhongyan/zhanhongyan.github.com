@@ -111,8 +111,8 @@ a img, a {cursor:pointer;}
 .cont_box .info span {color:#555; display:inline-block; width:25%; margin-right:5%;}
 
 .minibox {position:relative; float:left; min-height:70px; margin-bottom:20px;}
-.minibox_img {position:absolute; float:left; left:0; top:0; width:140px; height:140px; border-radius:10px; overflow:hidden;}
-.minibox_info {position:relative; float:right; padding-left:160px;}
+.minibox_img {position:absolute; float:left; left:0; top:0; width:70px; height:70px; border-radius:10px; overflow:hidden;}
+.minibox_info {position:relative; float:right; padding-left:90px;}
 .minibox_info p {margin-bottom:0;}
 
 /*partner spotlight*/
@@ -130,6 +130,12 @@ a img, a {cursor:pointer;}
 .prbox_info {position:absolute; left:0; top:0; padding:10px;}
 .prbox_info h3 a {margin-left:10px;}
 .prbox_info p {margin-bottom:0;}
+
+/*partner spotlight 3*/
+.logo_box ul {list-style-type:none; margin-left:0;}
+.logo_box ul li {list-style-type:none; float:left; width:240px; height:120px; line-height:120px; text-align:center; margin:0 20px 20px 0; }
+.logo_box ul li a {display:block; border:1px solid #eee;}
+.logo_box ul li a:hover {border:1px solid #222;}
 
 /*slide轮播*/
 .banner {position:relative; overflow:hidden; height:400px; margin:40px 20px 0;}
