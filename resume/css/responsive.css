@@ -1,0 +1,26 @@
+/* #### PC #### */
+
+@media screen and (min-width:1800px) { /*当屏幕尺寸大于等于1800px时，应用下面的CSS样式*/
+.site-container {width:1760px;}
+.imgWrap li {width:400px; height:400px;}
+}
+
+@media screen and (min-width:1360px) and (max-width:1799px) { /*当屏幕尺寸大于等于1360px小于1800px时，应用下面的CSS样式*/
+.site-container {width:1320px;}
+.imgWrap li {width:400px; height:400px;}
+}
+
+@media screen and (min-width:1000px) and (max-width:1359px) { /*当屏幕尺寸大于等于1000px小于1360px时，应用下面的CSS样式*/
+.site-container {width:960px;}
+.imgWrap li {width:280px; height:280px;}
+}
+
+@media screen and (min-width:640px) and (max-width:999px) { /*当屏幕尺寸大于等于640px小于1000px时，应用下面的CSS样式*/
+.site-container {width:640px;}
+.imgWrap li {width:280px; height:280px;}
+}
+
+@media screen and (min-width:440px) and (max-width:639px) { /*当屏幕尺寸大于等于440px小于640px时，应用下面的CSS样式*/
+.site-container {width:440px;}
+.imgWrap li {width:400px; height:400px;}
+}
