@@ -70,6 +70,9 @@ nav ul a:hover{
     text-align:center;
     background:#05c;
   }
+nav ul a:hover{
+  background:#08c;
+}  
 }
 
 
