@@ -54,7 +54,7 @@ img {width:100%;height:100%;border:0;}
 #contwrapper .section a span {width:100%; height:100%; position:absolute; z-index:8;}
 #contwrapper .section a .black {opacity:0; background:#000000 center top no-repeat; transition:all 0.5s ease-in-out; width:100%; height:100%; position:absolute; z-index:9; text-align:center;}
 #contwrapper .section a .black h2 {color:#ffffff; line-height:100%; position: relative; top:50%; transform:translateY(-50%)}
-#contwrapper .section:hover .black {opacity:0.8;}
+#contwrapper .section:hover .black {opacity:0;}
 
 /* Misc */
 main {display:block; overflow:hidden; width:100%;}
