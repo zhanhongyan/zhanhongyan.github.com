@@ -1,0 +1,58 @@
+﻿body{font:12px/1.5 "Hiragino Sans GB","Microsoft Yahei","微软雅黑","Arial",sans-serif;font-weight:200;color:#333;overflow-x:hidden;}
+
+html,body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, tr,th,td {margin:0;padding:0;border:0; }
+
+/*文字声明*/
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:200;font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑","Arial",sans-serif;color:#333;}
+.ellipsis{overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.font14{font-size:14px;}
+h1 {font-size:70px;}
+h2 {font-size:40px;}
+h3 {font-size:24px;}
+
+ol,ul,li{list-style:none}
+a:link{color:inherit;text-decoration:none;}
+a:hover{color:#cc0;text-decoration:none;}
+
+/*位置声明*/
+.clear{clear:both;height:0;line-height:0;visibility: hidden;content:".";display:block;}
+.pa{position:absolute;}
+.pr{position:relative;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*图片声明*/
+img {width:100%;height:100%;border:0;}
+
+/*banner*/
+#banner-inner {width:100%;height:540px;margin:0 auto;background:#232323 url(../images/banner.jpg) no-repeat center top;}
+
+/*banner上方新增*/
+#banner-add {width:920px;margin:0 auto;padding:0 15px;overflow:hidden;text-align:center;vertical-align:center;} /*banner中间新增部分*/
+#banner-add .headtitle {font-weight:200;font-size:65px;color:#fff;margin-bottom:40px;} /*banner主标题*/
+#banner-add .subtitle {font-weight:200;font-size:24px;line-height:1.5;color:#fff;margin-bottom:40px;} /*副标题*/
+#banner-add .playvideo {width:120px;margin:0 auto;} /*播放视频*/
+
+/*Realtimes 特征*/
+#the {position:relative;width:100%;height:70px;border-bottom:1px solid #ccc;top:0;background:#fff;}
+#wrapper {width:950px;margin:0 auto;}
+#rlogo {float:left;width:102px;height:30px;margin-top:26px;}
+#features {float:right;height:70px;}
+#features a {float:left;display:block;*display:inline;zoom:1;color:#666;font-size:14px;line-height:22px;margin-top:32px;margin-right:18px;}
+#features a:hover {color:#00a7e1;}
+#features .downios a {margin:0;width:78px;height:22px;background-image:url(../images/btn_ios.png);}
+#features .downios a:hover {background-image:url(../images/btn_ios_hover.png);}
+#features .downand a {margin:0;width:102px;height:22px;background-image:url(../images/btn_and.png);}
+#features .downand a:hover {background-image:url(../images/btn_and_hover.png);}
+
+.farea {width:920px;margin:0 auto;overflow:hidden;padding:60px 15px 0;}
+.farea:after {clear:both;height:0;line-height:0;visibility: hidden;content:".";display:block;}
+.farea .fd {width:480px;height:380px;float:left;overflow:hidden;}
+.farea .fd .title {margin-top:50px;margin-bottom:30px;}
+.farea .fd .character {margin-bottom:12px;}
+.farea .fd .character p {padding-left:12px;font-size:18px;line-height:28px;background:url(../images/point.png) no-repeat left top;} 
+.farea .fl {width:380px;height:380px;float:left;margin-right:60px;}
+.farea .fr {width:380px;height:380px;float:right;margin-left:60px;}
+
+.anchorlist {position:relative;clear:both;}
+.anchor {position:relative;display:block;top:-70px;}
