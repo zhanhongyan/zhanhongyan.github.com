@@ -44,15 +44,12 @@
 <div id="container">
   
   <div class="box" style="border-bottom:none;">
-    <h2>注册</h2>
+    <h2>登录</h2>
       <div style="width:1000px; margin:0 auto;">
         <form style="margin-left:50%; margin-top:20px;">
-          <input style="clear:left;" placeholder="账号" class="squared" type="text">
-          <input style="clear:left;" placeholder="您的手机号码" class="squared" type="text">
-          <input style="clear:left;" placeholder="密码" class="squared" type="text">
-          <input style="clear:left;" placeholder="再次输入密码" class="squared" type="text">
-          <input style="clear:left;" placeholder="输入手机验证码" class="squared" type="text">
-          <input style="clear:left;" class="button" id="loginButton" value="提交" type="submit">
+          <input name="pf.username" value="" class="squared resource" placeholder="输入账号（手机号码）" type="text">
+          <input style="clear:left;" name="pf.pass" class="squared resource" placeholder="输入密码" type="password">
+          <input style="clear:left;" class="button" id="loginButton" value="登录" type="submit">
         </form>
       </div>
   </div>

@@ -60,13 +60,15 @@ input.button:hover {color:#fff; background-color:#00a7e1;}
 .soft1inside {position:absolute; width:994px; height:507px; top:61px; left:4px; overflow-y:scroll; background:#fff;}
 .adapt {padding:0 2rem;}
 .adapt h2 {font-size:4em; margin:20px 0;}
-.adapt ul {display:block; box-sizing:content-box;}
+.adapt ul {width:100%; position:relative;}
 .adapt ul li {float: left; width: 30%; margin-right: 5%; margin-bottom: 5%; background: #fc0;}
+.adapt ul li:hover {}
 .adapt ul li:nth-child(3n) {margin-right: 0;}
 .adapt .item-top-wrap {width: 100%; display: block; position: relative; background: #f1f1f1;}
 .adapt .item-top-wrap a {display: block;}
 .adapt .item-top-wrap a img {width: 100%; display: block; background: #f1f1f1;}
-.adapt .item-top-wrap span {position: absolute; right: 4px; bottom: 4px; background: rgba(0,0,0,0.5); color: #fff; padding: 0 2px;border-radius: 4px; font-size: 0.6rem;}
+.adapt .item-top-wrap span.rating {position: absolute; left: 0px; top: 0px; background: rgba(0,0,0,0.5); color: #fff; padding:2px 6px;border-radius: 0 0 3px 0; font-size: 1rem;}
+.adapt .item-top-wrap span.time {position: absolute; right: 5px; bottom: 5px; background: rgba(0,0,0,0.5); color: #fff; padding:1px 3px;border-radius: 3px; font-size: 0.6rem;}
 .adapt .item-bottom-wrap {background: #f8f8f8; padding:4%;}
 .adapt .item-bottom-wrap .item-bottom-article {text-align: left; font-size: 1rem; color: #333; font-weight: bold; overflow: hidden; margin-bottom:10px;}
 .adapt .item-bottom-wrap .line-hide-2 {overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2;
@@ -76,6 +78,11 @@ input.button:hover {color:#fff; background-color:#00a7e1;}
 .adapt .item-bottom-info .item-bottom-user img {margin-top: 0.1rem; width: 100%; height: 100%; border-radius: 50%; overflow: hidden;}
 .adapt .item-bottom-info .item-bottom-name {float: left; color: #666; margin-left: 10px; font-size: 0.8rem; margin-top: 0.5rem;}
 
+/*评委打分页搜索*/
+.adapt input {height: 40px; float: left; line-height: 19px; padding: 8px; outline: 0; -webkit-appearance: none; font-size: 14px; background-color: #ffffff; box-sizing:border-box;}
+.adapt input.search_bar {}
+.adapt input.search_button {position:absolute; right:0; cursor: pointer; color:#fff; background-color:#00a7e1;}
+.adapt input.search_button:hover {color:#fff; background-color:#0095c7;}
 
 
 
